@@ -18,15 +18,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void selecionarPedra(View view){
-        verificarGanhador("Pedra");
+        verificarGanhador("pedra");
     }
 
     public void selecionarPapel(View view){
-        verificarGanhador("Papel");
+        verificarGanhador("papel");
     }
 
     public void selecionarTesoura(View view){
-        verificarGanhador("Tesoura");
+        verificarGanhador("tesoura");
     }
 
     private String gerarEscolhaAleatoriaApp() {
